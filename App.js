@@ -1,6 +1,6 @@
 import React from 'react';
 import {createStackNavigator, createAppContainer} from 'react-navigation';
-import IndexScreen from './src/screens/IndexScreen';
+import IndexScreen from './src/screens/indexScreen';
 import {Provider} from './src/context/BlogContext';
 import ShowScreen from './src/screens/ShowScreen';
 import CreateScreen from './src/screens/CreateScreen';
@@ -25,7 +25,7 @@ const App = createAppContainer(navigator);
 export default () => {
   return (
     <Provider>
-      <App />;
+      <App />
     </Provider>
   );
 };
